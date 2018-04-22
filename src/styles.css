@@ -1,0 +1,331 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: #F5F6FA !important;
+}
+
+.container{
+  width: 85% !important;
+  margin: 0px auto;
+  float: none;
+  clear: both;
+}
+
+.navbar-fixed{
+  background: #F6F7FB !important;
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  z-index: 1270;
+  box-shadow: 0px 1px 15px #000
+}
+
+
+.descargar{
+  display: block;
+  width: 45%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 27px;
+}
+
+.descargar img{
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.caracteristicas{
+  display: block;
+  width: 100%;
+}
+
+.caract img{
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px #9E9D9E
+}
+
+.separador-ca{
+  display: block;
+  width: 100%;
+  height: 127px;
+  margin-bottom: 10px;
+}
+.caract ul {
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 2px 15px #9E9D9E
+}
+
+.caract ul li {
+  padding: 10px;
+  list-style: none;
+  border-bottom: solid 1px #333;
+}
+
+
+
+
+
+
+.nav-img{
+  display: block;
+  width: 60px;
+}
+
+.nav-link{
+  color: #0094EA !important;
+}
+
+.nav-link.active{
+  color: #fff !important;
+  background: #0094EA;
+  border-radius: 10px;
+}
+
+.section{
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container{
+  display: block;
+}
+
+.section.princial{
+  background: #F5F6FA;
+}
+
+.section.secundario{
+  background: #FFF;
+}
+
+.section.inicio h1,
+.section.inicio h2{
+  text-align: center;
+  text-shadow: 0px 1px 2px #000;
+  position: absolute;
+  color: #fff;
+  right: 0px;
+  left: 0px;
+  margin-top: -110px !important;
+  font-size: 43px;
+}
+
+.section.inicio h2{
+  margin-top: -70px !important;
+  font-size: 27px;
+  color: #3B3CA9 !important;
+}
+
+.espacio-menu{
+  display: block;
+  padding: 10px;
+  height: 40px;
+}
+
+.seccion-inicio{
+  display: block;
+  text-align: justify;
+}
+
+.info-inicio{
+  display: block;
+  margin-top: -50px;
+}
+
+.info-inicio img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.list{
+  display: block;
+}
+
+.section.beneficios{
+  float: none;
+  clear: both;
+}
+
+.section.beneficios h2{
+  font-size: 20px;
+}
+
+.section.beneficios p{
+  text-align: justify;
+}
+
+.section.beneficios span{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: -25px;
+  margin-right: -25px;
+  background: #fff;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 3.2;
+  border: solid 1px #ddd;
+}
+
+.card.icon{
+  position: relative;
+}
+
+.section.caracteristicas{
+  background: #F9FAFD !important;
+}
+
+.text-center{
+  width: 100% !important;
+  font-size: 27px !important;
+  color: #FFF;
+  display: inline-block;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.text-center p{
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background: #0088F2 !important;
+}
+
+.text-centerp{
+  width: 100%;
+  text-align: center;
+}
+
+.section.planes .card-body h3{
+  font-size: 20px !important;
+}
+
+.section.planes .card-body p{
+  font-size: 12px !important;
+}
+
+.section .precio{
+  text-align: center;
+  font-size: 35px;
+}
+
+.btn-center{
+  display: block;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin: 0px auto;
+  text-decoration: none;
+}
+
+.pie{
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #fff !important;
+  margin-top: 127px;
+  padding: 10px;
+  font-size: 12px;
+  float: none;
+  clear: both;
+}
+
+.pie.abajo{
+  position: fixed;
+  bottom: 0px;
+}
+/* .btn-center:hover{
+  background: #3B3CA9;
+  color: #fff;
+} */
+
+/************************************************
+	TABLET
+*************************************************/
+@media screen and (min-width:700px){
+
+  .carousel-inner{
+    height: 400px;
+  }
+
+  .container{
+    width: 600px !important;
+  }
+
+  .info-inicio{
+    width: 50%;
+    margin-top: -150px;
+    float: right;
+  }
+  .caract{
+    display: block;
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+  }
+
+  .separador-ca{
+    display: none;
+  }
+
+  .descargar{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 27px;
+  }
+
+}
+/************************************************
+	PC
+*************************************************/
+@media screen and (min-width:993px){
+
+  .carousel-inner{
+    height: 500px;
+  }
+
+  .container{
+    width: 700px !important;
+  }
+
+  .section.inicio h1{
+    font-size: 70px;
+    margin-top: -50px;
+  }
+
+  .section.inicio h2{
+    font-size: 40px;
+  }
+
+  .espacio-menu{
+    height: 80px;
+  }
+
+  .info-inicio{
+    width: 50%;
+    margin-top: -172px;
+    float: right;
+  }
+
+}
